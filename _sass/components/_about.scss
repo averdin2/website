@@ -7,6 +7,11 @@
     padding: 25px 15px 20px 15px;    
 }
 
+// This is a duplicate class to test CSS linting GitHub action
+.header-container--about-us {
+  display: flex;
+}
+
 .header-container--about-us h1 {
   font-weight: 900;
   margin-bottom: 30px;
