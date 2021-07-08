@@ -1,4 +1,5 @@
 // Constant setups for reuse throughout document
+// Adding a comment to see if file is not linted
 const ANCHOR_LINKS_ID = [...document.querySelectorAll(".anchor")].map((anchor) => anchor.id);
 const NAVIGATION_LINK_ELEMENTS = document.querySelectorAll(".sticky-nav a");
 const VIEWPORT_HEIGHT = Math.max(document.documentElement.clientHeight || 0,  window.innerHeight || 0);

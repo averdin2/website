@@ -1,8 +1,8 @@
 {
-    "rules": {
-      "no-duplicate-selectors": true,
-      "selector-pseudo-class-no-unknown": true,
-      "selector-pseudo-element-no-unknown": true,
-      "selector-type-no-unknown": true
-    }
+  "rules": {
+    "no-duplicate-selectors": true,
+    "selector-pseudo-class-no-unknown": true,
+    "selector-pseudo-element-no-unknown": true,
+    "selector-type-no-unknown": true
   }
+}
