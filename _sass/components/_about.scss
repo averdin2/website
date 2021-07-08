@@ -11,6 +11,7 @@
 .header-container--about-us {
   display: flex;
   justify-content: center;
+  flex-flow: column;
 }
 
 .header-container--about-us h1 {
