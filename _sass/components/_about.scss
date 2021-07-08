@@ -10,6 +10,7 @@
 // This is a duplicate class to test CSS linting GitHub action
 .header-container--about-us {
   display: flex;
+  justify-content: center;
 }
 
 .header-container--about-us h1 {
