@@ -2,10 +2,10 @@ name: Lint Code Base
 
 on:
   push:
-    branches: [linting-test]
+    branches: [linting-test-2]
 
   pull_request:
-    branches: [linting-test]
+    branches: [linting-test-2]
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: linting-test
+          DEFAULT_BRANCH: linting-test-2
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
