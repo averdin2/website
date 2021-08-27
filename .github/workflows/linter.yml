@@ -1,8 +1,8 @@
 name: Lint Code Base
 
 on:
-  push:
-    branches: [1958-fix-css-linting-issues]
+  pull_request:
+    branches: [test-pr-linting]
 
 jobs:
   build:
@@ -19,8 +19,8 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter@v4
         env:
-          VALIDATE_ALL_CODEBASE: true
-          DEFAULT_BRANCH: 1958-fix-css-linting-issues
+          VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: test-pr-linting
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
