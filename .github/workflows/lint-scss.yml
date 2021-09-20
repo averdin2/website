@@ -2,9 +2,9 @@ name: Lint SCSS
 
 on:
   pull_request:
-    branches: [gh-pages]
+    branches: [test-pr-linting]
   push:
-    branches: [gh-pages]
+    branches: [test-pr-linting]
 
 jobs:
   build:
@@ -26,6 +26,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
-          LINTER_RULES_PATH: /
+          LINTER_RULES_PATH: /github-actions/linter/
           CSS_FILE_NAME: .stylelintrc.json
           VALIDATE_CSS: true
